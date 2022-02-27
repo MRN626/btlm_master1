@@ -1,0 +1,62 @@
+CRITICAL - 2022-02-24 03:24:14 --> Undefined variable: id
+#0 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\app\Controllers\Employe.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ElvisK...', 104, Array)
+#1 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(825): App\Controllers\Employe->validateDemand()
+#2 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employe))
+#3 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ElvisK...')
+#6 {main}
+CRITICAL - 2022-02-24 03:24:41 --> Too few arguments to function App\Controllers\Employe::validateDemand(), 0 passed in C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(825): App\Controllers\Employe->validateDemand()
+#1 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employe))
+#2 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ElvisK...')
+#5 {main}
+CRITICAL - 2022-02-24 03:25:08 --> Too few arguments to function App\Controllers\Employe::validateDemand(), 0 passed in C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(825): App\Controllers\Employe->validateDemand()
+#1 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employe))
+#2 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ElvisK...')
+#5 {main}
+CRITICAL - 2022-02-24 12:06:54 --> Undefined variable: session
+#0 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\app\Controllers\Employe.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ElvisK...', 116, Array)
+#1 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(825): App\Controllers\Employe->validateDemandService('1')
+#2 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employe))
+#3 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ElvisK...')
+#6 {main}
+CRITICAL - 2022-02-24 12:13:04 --> Undefined variable: id
+#0 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\app\Controllers\Employe.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ElvisK...', 121, Array)
+#1 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(825): App\Controllers\Employe->validateDemandService('1')
+#2 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employe))
+#3 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ElvisK...')
+#6 {main}
+CRITICAL - 2022-02-24 12:13:11 --> Undefined variable: id
+#0 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\app\Controllers\Employe.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ElvisK...', 121, Array)
+#1 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(825): App\Controllers\Employe->validateDemandService('1')
+#2 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employe))
+#3 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ElvisK...')
+#6 {main}
+ERROR - 2022-02-24 12:37:57 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-02-24 12:37:57 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\app\Controllers\Employe.php(64): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(825): App\Controllers\Employe->addFicheBesoin()
+#9 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employe))
+#10 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ElvisKankola1\Documents\code\projet\BTLM-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ElvisK...')
+#13 {main}

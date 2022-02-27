@@ -1,0 +1,28 @@
+CRITICAL - 2022-02-27 13:10:56 --> Cache unable to write to C:\xampp\htdocs\btlm_master1\writable\cache/.
+#0 C:\xampp\htdocs\btlm_master1\system\Cache\Handlers\FileHandler.php(61): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\btlm_master1\system\Cache\CacheFactory.php(60): CodeIgniter\Cache\Handlers\FileHandler->__construct(Object(Config\Cache))
+#2 C:\xampp\htdocs\btlm_master1\system\Config\Services.php(106): CodeIgniter\Cache\CacheFactory::getHandler(Object(Config\Cache))
+#3 C:\xampp\htdocs\btlm_master1\system\Config\BaseService.php(248): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#4 C:\xampp\htdocs\btlm_master1\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#5 C:\xampp\htdocs\btlm_master1\system\Config\Services.php(101): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#6 C:\xampp\htdocs\btlm_master1\system\Config\BaseService.php(248): CodeIgniter\Config\Services::cache()
+#7 C:\xampp\htdocs\btlm_master1\system\Common.php(67): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#8 C:\xampp\htdocs\btlm_master1\system\CodeIgniter.php(597): cache()
+#9 C:\xampp\htdocs\btlm_master1\system\CodeIgniter.php(307): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#10 C:\xampp\htdocs\btlm_master1\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\btlm_master1\spark(63): CodeIgniter\CLI\Console->run()
+#12 {main}
+CRITICAL - 2022-02-27 13:30:43 --> Cache unable to write to C:\xampp\htdocs\btlm_master1\writable\cache/.
+#0 C:\xampp\htdocs\btlm_master1\system\Cache\Handlers\FileHandler.php(61): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\btlm_master1\system\Cache\CacheFactory.php(60): CodeIgniter\Cache\Handlers\FileHandler->__construct(Object(Config\Cache))
+#2 C:\xampp\htdocs\btlm_master1\system\Config\Services.php(106): CodeIgniter\Cache\CacheFactory::getHandler(Object(Config\Cache))
+#3 C:\xampp\htdocs\btlm_master1\system\Config\BaseService.php(248): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#4 C:\xampp\htdocs\btlm_master1\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#5 C:\xampp\htdocs\btlm_master1\system\Config\Services.php(101): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#6 C:\xampp\htdocs\btlm_master1\system\Config\BaseService.php(248): CodeIgniter\Config\Services::cache()
+#7 C:\xampp\htdocs\btlm_master1\system\Common.php(67): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#8 C:\xampp\htdocs\btlm_master1\system\CodeIgniter.php(597): cache()
+#9 C:\xampp\htdocs\btlm_master1\system\CodeIgniter.php(307): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#10 C:\xampp\htdocs\btlm_master1\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\btlm_master1\spark(63): CodeIgniter\CLI\Console->run()
+#12 {main}
